@@ -222,6 +222,8 @@ color: #100A42;
   height: 567px;
 }
 
+/* FOOTER */
+
 .footer{
   display: flex;
   justify-content: space-between;
@@ -259,4 +261,128 @@ color: #100A42;
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
+}
+
+/* NAV */
+
+.other-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 35px;
+  border-top: 1px solid #ADADAD;
+  padding: 20px 100px;
+}
+
+.user{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.user p{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.img7{
+  height: 40px;
+  width: 40px;
+}
+
+/* HOME */
+
+body{
+  height: 1000px;
+}
+
+.top-content{
+  display: flex;
+  justify-content: space-between;
+  height: 69px;
+  margin-top: 10px;
+  padding: 0 100px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #0000001A;
+}
+
+.salutation{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.salutation h2{
+  font-size: 32px;
+  font-weight: 700;
+  color: #141414;
+}
+
+.salutation p{
+  font-size: 18px;
+  font-weight: 400;
+  color: #141414B2;
+}
+
+/* Search */
+.search-div{
+  position: relative;
+}
+
+.search-input {
+background-color: #B6B3C624;
+outline: none;
+font-size: 16px;
+color: black;
+border: solid 2px #E7E7ED;
+border-radius: 10px;
+padding: 10px 6px;
+width: 400px;
+height: 36px;
+padding-left: 50px;
+}
+
+.search-input::placeholder{
+  color: #C3C3C3;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.search-button {
+position: absolute;
+top: 50%;
+left: 1%;
+transform: translate(100%, -70%);
+color: #C3C3C3;
+}
+
+.recent-files{
+  border: 1px solid red;
+  height: 367px;
+  margin: 0 100px;
+  margin-top: 50px;
+}
+
+.recent-files p{
+  font-weight: 500;
+  font-size: 18px;
+  color: #141414CC;
+  padding-bottom: 24px;
+}
+
+.videos{
+  display: flex;
+  justify-content: space-between;
+  height: 322px;
+}
+
+.videos div{
+  border: 1px solid red;
+  width: 557px;
+  border-radius: 24px;
+}
+
+.space{
+  height: 100px;
 }

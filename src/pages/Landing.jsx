@@ -13,14 +13,15 @@ import Footer from "../components/Footer";
 import { Link, useNavigate } from "react-router-dom";
 
 const Landing = () => {
-	const navigate = useNavigate();
 	return (
 		<>
 			<div className="landing-nav">
-				<div className="logo-div">
-					<img src={logo} alt="" />
-					<p className="inter">HelpMeOut</p>
-				</div>
+				<Link className="link" to={"/"}>
+					<div className="logo-div">
+						<img src={logo} alt="logo" />
+						<p className="inter">HelpMeOut</p>
+					</div>
+				</Link>
 				<div className="nav-links work-sans">
 					<p>Features</p>
 					<p>How it works</p>
